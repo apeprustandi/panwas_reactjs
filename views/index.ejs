@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/css/stylesIndex.css">
+  <link rel="icon" type="image/svg+xml" href="https://jombang.bawaslu.go.id/wp-content/uploads/2019/04/Logo-Bawaslu-2018-Icon-PNG-HD.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Panwaslu Kecamatan Cibinong</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+</head>
+
+<body>
+  <section class="container">
+    <form class="form">
+
+      <div class="centered-image"><img src="https://jombang.bawaslu.go.id/wp-content/uploads/2019/04/Logo-Bawaslu-2018-Icon-PNG-HD.png" width="70" alt="Logo" /></div>
+      <h7 class="font-lain"><br>Bersama Rakyat Awasi Pemilu Bersama Bawaslu Tegakkan Keadilan Pemilu</h7>
+
+      <button id="laporan-pkd-btn" type="button" class="link-btn">ADM PANWAS</button>
+      <button type="submit" formaction="https://www.twibbonize.com/panwaslucibinong" class="link-btn">TWIBBON</button>
+      <button type="submit" formaction="/pengaduan" class="link-btn">PUSAT PENGADUAN</button>
+
+      <div class="social-icons">
+        <a href="https://facebook.com/panwaslu.cibinong" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/your-instagram-profile" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:panwaslukec.cibinong@gmail.com"><i class="far fa-envelope"></i></a>
+      </div>
+
+      <div class="copyright"> &copy; <span id="current-year"></span> Dunia Kedol</div>
+    </form>
+  </section>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+
+  function popupku(logo, status, kata) {
+    Swal.fire({
+      icon: logo,  // Set the success icon
+      title: status,  // Title of the modal
+      text: kata,  // Your success message
+      confirmButtonColor: '#F1C27B',  // Set color button
+      confirmButtonText: 'OK',  // Text on the confirm button
+    });
+  }
+
+  const laporanPkdBtn = document.getElementById('laporan-pkd-btn');
+  const tampilkanTombolBtn = document.getElementById('tampilkan-tombol');
+  const tombolLainnya = document.querySelectorAll('.link-btn:not(#tampilkan-tombol)');
+  laporanPkdBtn.addEventListener('click', async function () {
+    const { value: password } = await Swal.fire({
+      title: 'Password',
+      input: 'password',
+      inputPlaceholder: 'Masukan Password',
+      confirmButtonColor: '#F1C27B',
+      inputAttributes: {
+        maxlength: 10,
+        autocapitalize: 'off',
+        autocorrect: 'off'
+      }
+    });
+
+    if (password === 'Panwas123') {
+      window.location.href = '/profil';
+    } else if (password) {
+      popupku('error', 'Gagal', 'Password Salah !!!');
+    }
+  });
+
+  window.addEventListener('DOMContentLoaded', function () {
+    var currentYear = new Date().getFullYear();
+    var yearElement = document.getElementById('current-year');
+    yearElement.textContent = currentYear;
+  });
+</script>
+
+</html>

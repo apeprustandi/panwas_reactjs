@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/svg+xml" href="https://jombang.bawaslu.go.id/wp-content/uploads/2019/04/Logo-Bawaslu-2018-Icon-PNG-HD.png">
+    <title><%= title %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-size: 0.85vmax;
+        }
+        .notes {
+            font-style: italic;
+        }
+        .nav-item.active a,
+        .nav-item.active i {
+            color: red !important;
+        } 
+    </style>
+</head>
+<body class="bg-light">
+    <main class="container p-1">
+        <!-- START DATA -->
+        <div class="mb-3 mt-1 p-3 bg-body rounded shadow-sm">
+            <div>
+                <nav class="navbar navbar-expand navbar-light fixed-bottom p-2" style="background-color: #F1C27B;">
+                    <ul class="navbar-nav nav-justified w-100">
+                        <li class="nav-item">
+                            <a href="/absen" style="color: #333333; text-decoration: none;">
+                                <div>
+                                    <i class="bi bi-clipboard2-check-fill" style="font-size: 18px; color: #333333;"></i>
+                                </div>
+                                <div><strong>Absen</strong></div>
+                            </a>
+                        </li>  
+                        <li class="nav-item">
+                            <a href="https://forms.gle/BP8CqeBatRdRzjU2A" style="color: #333333; text-decoration: none;">
+                                <div>
+                                    <i class="bi bi-file-earmark-plus-fill" style="font-size: 18px; color: #333333;"></i>
+                                </div>
+                                <div><strong>Buat LHP</strong></div>
+                            </a>
+                        </li>                                                                
+                        <li class="nav-item">
+                            <a href="/profil" style="color: #333333; text-decoration: none;">
+                                <div>
+                                    <i class="bi bi-people-fill" style="font-size: 18px; color: #333333;"></i>
+                                </div>
+                                <div><strong>Lihat Profil</strong></div>
+                            </a>
+                        </li>                                                                                
+                        <li class="nav-item">
+                            <a href="/" style="color: #333333; text-decoration: none;">
+                                <div>
+                                    <i class="bi bi-house-fill" style="font-size: 18px; color: #333333;"></i>
+                                </div>
+                                <div><strong>Home</strong></div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/data-absen" style="color: #333333; text-decoration: none;">
+                                <div>
+                                    <i class="bi bi-database-fill-check" style="font-size: 18px; color: #333333;"></i>
+                                </div>
+                                <div><strong>Lihat Absen</strong></div>
+                            </a>
+                        </li>                                                                                   
+                        <li class="nav-item">
+                            <a href="/lhp-pkd" style="color: #333333; text-decoration: none;">
+                                <div>
+                                    <i class="bi bi-database-fill-check" style="font-size: 18px; color: #333333;"></i>
+                                </div>
+                                <div><strong>Lihat LHP</strong></div>
+                            </a>
+                        </li>                                            
+                        <li class="nav-item">
+                            <a href="/jadwal-piket" style="color: #333333; text-decoration: none;">
+                                <div>
+                                    <i class="bi bi-calendar-check" style="font-size: 18px; color: #333333;"></i>
+                                </div>
+                                <div><strong>Jadwal Piket</strong></div>
+                            </a>
+                        </li>                                            
+                    </ul>
+                </nav>
+            </div>
+            <section class="vh-100">
+                <div class="container py-5 h-100">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <% dataKu.forEach((dataku, i) => { %>
+                                <li data-target="#myCarousel" data-slide-to="<%= i %>" <%= i === 0 ? 'class="active"' : '' %>></li>
+                            <% }); %>
+                        </ol>
+
+                        <!-- Slides -->
+                        <div class="carousel-inner">
+                            <% dataKu.forEach((dataku, i) => { %>
+                                <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
+                                    <div class="d-flex justify-content-center align-items-center h-100">
+                                        <div class="col-md-12 col-xl-4">
+                                            <div class="card" style="border-radius: 15px; background: linear-gradient(to bottom, #FFE4A7, #F1C27B);">
+                                                <div class="card-body text-center">
+                                                    <div class="mt-3 mb-4">
+                                                      <img src="<%= dataku.foto %>" class="rounded-circle img-fluid" style="width: 100px;" />
+                                                    </div>
+                                                    <h4 class="mb-2"><%= dataku.nama %></h4>
+                                                    <div class="text-muted mb-4">
+                                                        <h6><%= dataku.jabatan %></h6>
+                                                        <h7><%= dataku.jabatan2 %></h7>
+                                                    </div>
+                                                    <a href="https://api.whatsapp.com/send?phone=<%= dataku.nomorHp %>" class="btn btn-warning btn-rounded btn-sm"><i class="bi bi-whatsapp"></i><strong> Hubungi</strong></a>
+                                                    <div class="text-muted mb-4 mt-5">
+                                                        <h7><%= dataku.alamat %></h7>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <% }); %>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    // Mengambil URL halaman saat ini
+                    var currentLocation = window.location.pathname;
+
+                    // Mencari elemen <a> yang memiliki atribut href sesuai dengan URL saat ini
+                    $('.nav-item a').each(function () {
+                        var link = $(this).attr('href');
+                        if (link === currentLocation) {
+                            // Menambahkan kelas "active" ke elemen li yang mengandung tautan aktif
+                            $(this).closest('li').addClass('active');
+                        }
+                    });
+                });
+            </script>            
+        </div>
+        <!-- AKHIR DATA -->
+    </main>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Panwaslu Cibinong</title>
+    <link rel="icon" type="image/svg+xml" href="https://jombang.bawaslu.go.id/wp-content/uploads/2019/04/Logo-Bawaslu-2018-Icon-PNG-HD.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background: #FFE4A7;
+        }
+        .container {
+            position: relative;
+            max-width: 700px;
+            width: 100%;
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .container header {
+            font-size: 1.5rem;
+            color: #333;
+            font-weight: 500;
+            text-align: center;
+        }
+        .container .form {
+            margin-top: 20px;
+        }
+        .form .input-box {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .input-box.aduan textarea {
+            width: 100%;
+            min-height: 80px;
+            resize: vertical;
+        }
+        .form .input-box input,
+        .form .input-box.aduan textarea,
+        .form .select-box select {
+            position: relative;
+            height: 50px;
+            width: 100%;
+            outline: none;
+            font-size: 1rem;
+            color: #707070;
+            margin-top: 5px;
+            margin-bottom: 8px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 0 15px;
+        }
+        .input-box input:focus {
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+        }
+        .form .column {
+            display: flex;
+            column-gap: 15px;
+        }
+        .form .gender-box {
+            margin-top: 20px;
+        }
+        .gender-box h3 {
+            color: #333;
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+        .form .gender-option,
+        .form .gender {
+            display: flex;
+            align-items: center;
+            column-gap: 50px;
+            flex-wrap: wrap;
+        }
+        .form .gender {
+            column-gap: 5px;
+        }
+        .gender input,
+        .gender label {
+            cursor: pointer;
+        }
+        .gender label {
+            color: #707070;
+        }
+        .address input,
+        .address .select-box select {
+            margin-top: 15px;
+        }
+        .select-box select {
+            height: 100%;
+            width: 100%;
+            outline: none;
+            border: none;
+            color: #707070;
+            font-size: 1rem;
+        }
+        .form button {
+            height: 55px;
+            width: 100%;
+            color: #000;
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 30px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background: #FFE4A7;
+        }
+        .form button:hover {
+            background: #F1C27B;
+        }
+        .centered-image {
+            display: flex;
+            align-items: center;
+        }
+        .text-left {
+            text-align: left;
+            margin-left: 10px;
+            font-size: 0.8rem;
+        }
+        /* Responsive */
+        @media screen and (max-width: 500px) {
+            .form .column {
+                flex-wrap: wrap;
+            }
+            .form .gender-option,
+            .form .gender {
+                row-gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="centered-image">
+                <img src="https://jombang.bawaslu.go.id/wp-content/uploads/2019/04/Logo-Bawaslu-2018-Icon-PNG-HD.png" width="50" alt="Logo">
+                <span class="text-left">Pusat Pengaduan<br>Kecamatan Cibinong</span>
+            </div>
+        </header>
+        <form class="form" onsubmit="submitForm(event)">
+            <div class="column">
+                <div class="input-box">
+                    <label for="namaLengkap">Nama Lengkap</label>
+                    <input type="text" id="namaLengkap" placeholder="Masukkan nama lengkap" required>
+                </div>
+                <div class="input-box">
+                    <label for="nomorHp">Nomor Hp</label>
+                    <input type="number" id="nomorHp" placeholder="Masukkan nomor hp" required>
+                </div>
+            </div>
+            <div class="input-box address">
+                <label for="alamatLengkap">Alamat Lengkap</label>
+                <input type="text" id="alamatLengkap" placeholder="Masukkan kampung rt/rw" required>
+                <div class="select-box">
+                    <select id="desa">
+                        <option hidden>Desa</option>
+                        <% dataUsers.forEach((dataUser, i) => { %>
+                            <option value="<%= dataUser['DESA'] %>"><%= dataUser['DESA'] %></option>
+                        <% }); %>
+                    </select>
+                </div>
+            </div>
+            <div class="input-box aduan">
+                <label for="uraianPengaduan">Uraian Pengaduan</label>
+                <textarea id="uraianPengaduan" placeholder="Jelaskan..." required></textarea>
+            </div>
+            <button type="submit">Kirim Pengaduan</button>
+        </form>
+    </section>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+
+        function sendData(data) {
+            const url = `https://docs.google.com/forms/d/e/1FAIpQLScV5PH_RJ9vDoywQiVYmb7BV7qVWbS81RXiXvjT2ii4MOriwA/formResponse?usp=pp_url&entry.482366779=${data.nama}&entry.1121864757=${data.nomorHp}&entry.971736193=${data.alamatLengkap}&entry.1218056467=${data.desa}&entry.276842204=${data.uraianPengaduan}`;
+            fetch(url)
+                .then(response => response.json());
+        }
+
+        function popupku(logo, status, kata) {
+            Swal.fire({
+                icon: logo,
+                title: status,
+                text: kata,
+                confirmButtonColor: '#F1C27B',
+                confirmButtonText: 'OK',
+            });
+        }
+
+        function submitForm(event) {
+            event.preventDefault();
+            // Mengambil nilai dari elemen-elemen input
+            var nama = document.getElementById('namaLengkap').value;
+            var nomorHp = document.getElementById('nomorHp').value;
+            var alamatLengkap = document.getElementById('alamatLengkap').value;
+            var desa = document.getElementById('desa').value;
+            var uraianPengaduan = document.getElementById('uraianPengaduan').value;
+
+            // Memeriksa apakah semua nilai tidak kosong
+            if (nama === '' || nomorHp === '' || alamatLengkap === '' || desa === 'Desa' || uraianPengaduan === '') {
+                alert('Mohon lengkapi semua bidang sebelum mengirim.');
+            } else {
+                var data = {
+                    nama: nama.replace(/ /g, "+"),
+                    nomorHp: nomorHp,
+                    alamatLengkap: alamatLengkap.replace(/ /g, "+"),
+                    desa:desa,
+                    uraianPengaduan: uraianPengaduan.replace(/ /g, "+")
+                };
+                popupku('success', 'Success', 'Pengaduan terkirim');
+                sendData(data) 
+                setTimeout(function() {
+                    window.location.href = '/';
+                }, 5000);
+            }
+        }
+    </script>
+</body>
+</html>

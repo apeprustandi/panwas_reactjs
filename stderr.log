@@ -1,0 +1,1127 @@
+Error fetching data: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11457:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/nveufkso/panwas.cibinong.biz.id/app.js:31:30 {
+  cause: ConnectTimeoutError: Connect Timeout Error
+      at onConnectTimeout (node:internal/deps/undici/undici:8422:28)
+      at node:internal/deps/undici/undici:8380:50
+      at Immediate._onImmediate (node:internal/deps/undici/undici:8411:13)
+      at process.processImmediate (node:internal/timers:476:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Error fetching data: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11457:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/nveufkso/panwas.cibinong.biz.id/app.js:50:26 {
+  cause: ConnectTimeoutError: Connect Timeout Error
+      at onConnectTimeout (node:internal/deps/undici/undici:8422:28)
+      at node:internal/deps/undici/undici:8380:50
+      at Immediate._onImmediate (node:internal/deps/undici/undici:8411:13)
+      at process.processImmediate (node:internal/timers:476:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:28
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:10
+        "jabatan2": "Kordiv. Hukum, Pencegahan, Partisipasi Masyarakat dan Hubungan Masyarakat"
+        ^
+
+SyntaxError: Unexpected string in JSON at position 242
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:7
+        "email": "musadad@gmail.com",
+        ^
+
+SyntaxError: Unexpected string in JSON at position 54647
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:7
+        "email": "musadad@gmail.com",
+        ^
+
+SyntaxError: Unexpected string in JSON at position 54647
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:7
+        "email": "musadad@gmail.com",
+        ^
+
+SyntaxError: Unexpected string in JSON at position 54647
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:7
+        "email": "musadad@gmail.com",
+        ^
+
+SyntaxError: Unexpected string in JSON at position 54647
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:7
+        "email": "musadad@gmail.com",
+        ^
+
+SyntaxError: Unexpected string in JSON at position 54647
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:7
+        "email": "musadad@gmail.com",
+        ^
+
+SyntaxError: Unexpected string in JSON at position 54647
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:7
+        "email": "musadad@gmail.com",
+        ^
+
+SyntaxError: Unexpected string in JSON at position 54647
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+undefined:7
+        "email": "musadad@gmail.com",
+        ^
+
+SyntaxError: Unexpected string in JSON at position 189
+    at JSON.parse (<anonymous>)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:54:27
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+
+Node.js v18.16.1
+Error fetching data: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11457:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/nveufkso/panwas.cibinong.biz.id/app.js:64:26 {
+  cause: ConnectTimeoutError: Connect Timeout Error
+      at onConnectTimeout (node:internal/deps/undici/undici:8422:28)
+      at node:internal/deps/undici/undici:8380:50
+      at Immediate._onImmediate (node:internal/deps/undici/undici:8411:13)
+      at process.processImmediate (node:internal/timers:476:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Error fetching data: ReferenceError: dataLHP is not defined
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:76:42
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+/home/nveufkso/panwas.cibinong.biz.id/app.js:52
+        console.error('Error fetching
+                      ^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+
+Node.js v18.16.1
+/home/nveufkso/panwas.cibinong.biz.id/app.js:52
+        console.error('Error fetching
+                      ^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+
+Node.js v18.16.1
+/home/nveufkso/panwas.cibinong.biz.id/app.js:52
+        console.error('Error fetching
+                      ^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+
+Node.js v18.16.1
+/home/nveufkso/panwas.cibinong.biz.id/app.js:52
+        console.error('Error fetching
+                      ^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+
+Node.js v18.16.1
+/home/nveufkso/panwas.cibinong.biz.id/app.js:52
+        console.error('Error fetching
+                      ^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+
+Node.js v18.16.1
+/home/nveufkso/panwas.cibinong.biz.id/app.js:52
+        console.error('Error fetching
+                      ^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+
+Node.js v18.16.1
+Error fetching data: ReferenceError: dataAbsen is not defined
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:49:46
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+Error fetching data: ReferenceError: dataLHP is not defined
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:74:42
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+Error fetching data: ReferenceError: dataAbsen is not defined
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:49:46
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+Error fetching data: ReferenceError: dataLHP is not defined
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:75:42
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+Error fetching data: ReferenceError: dataLHP is not defined
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:75:42
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/router/layer.js:95:5)
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module 'https://cdn.jsdelivr.net/npm/sweetalert2@11'
+Require stack:
+- /home/nveufkso/panwas.cibinong.biz.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/home/nveufkso/panwas.cibinong.biz.id/app.js:5:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/nveufkso/panwas.cibinong.biz.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v18.16.1
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module 'https://cdn.jsdelivr.net/npm/sweetalert2@11'
+Require stack:
+- /home/nveufkso/panwas.cibinong.biz.id/app.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (/home/nveufkso/panwas.cibinong.biz.id/app.js:5:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/nveufkso/panwas.cibinong.biz.id/app.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v18.16.1
+Error fetching data: SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6571:19)
+    at successSteps (node:internal/deps/undici/undici:6545:27)
+    at node:internal/deps/undici/undici:1211:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error fetching data: TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11457:11)
+    at async /home/nveufkso/panwas.cibinong.biz.id/app.js:77:29 {
+  cause: HeadersTimeoutError: Headers Timeout Error
+      at Timeout.onParserTimeout [as callback] (node:internal/deps/undici/undici:9647:32)
+      at Timeout.onTimeout [as _onTimeout] (node:internal/deps/undici/undici:7948:17)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7) {
+    code: 'UND_ERR_HEADERS_TIMEOUT'
+  }
+}
+ReferenceError: /home/nveufkso/panwas.cibinong.biz.id/views/detail.ejs:24
+    22|                   </div>
+    23|                   <h4 class="mb-2"><%= lhpCetak.data['Pelaksana Tugas'] %></h4>
+ >> 24|                   <p class="text-muted"><%= lhpCetak.data['Nomor LHP'] <br> lhpCetak.data['Jabatan'] %></p>
+    25|                     <a href="/download-document/<%= lhpCetak.data['Nomor LHP'].split('/')[0]%> <%= lhpCetak.data['Pelaksana Tugas']%>">
+    26|                         <button type="button" class="btn btn-warning btn-rounded btn-xl mb-3"><i class="bi bi-file-earmark-arrow-down-fill"></i>
+    27|                           <strong> Download</strong>
+
+br is not defined
+    at eval ("/home/nveufkso/panwas.cibinong.biz.id/views/detail.ejs":15:54)
+    at detail (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/nveufkso/nodevenv/panwas.cibinong.biz.id/18/lib/node_modules/express/lib/response.js:1039:7)
+    at /home/nveufkso/panwas.cibinong.biz.id/app.js:86:21

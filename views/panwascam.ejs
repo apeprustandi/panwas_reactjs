@@ -1,0 +1,27 @@
+<%- include('layouts/header') %>
+<%- include('layouts/nav') %>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="col-md-1">No</th>
+                        <th class="col-md-3">Nama</th>
+                        <th class="col-md-3">Jabatan</th>
+                        <th class="col-md-2">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% dataUser.forEach((dataku,i) => {i++ %>
+                        <tr>
+                            <td><%= i++ %></td>
+                            <td><%= dataku.nama%></td>
+                            <td><%= dataku.jabatan%></td>
+                            <td>
+                                <a href='' class="btn btn-success btn-sm"><i class="bi bi-info-circle"> </i>Detail</a>
+                            </td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+
+            <%- include('layouts/footer') %>

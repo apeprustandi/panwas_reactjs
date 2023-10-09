@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Panwaslu Cibinong</title>
+    <link rel="icon" type="image/svg+xml" href="https://jombang.bawaslu.go.id/wp-content/uploads/2019/04/Logo-Bawaslu-2018-Icon-PNG-HD.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background: #FFE4A7;
+        }
+        .container {
+            position: relative;
+            max-width: 700px;
+            width: 100%;
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .container header {
+            font-size: 1.5rem;
+            color: #333;
+            font-weight: 500;
+            text-align: center;
+        }
+        .container .form {
+            margin-top: 30px;
+        }
+        .form .input-box {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .input-box.laporan textarea {
+            width: 100%;
+            min-height: 80px;
+            resize: vertical;
+        }
+        .form .input-box input,
+        .form .input-box.laporan textarea,
+        .form .select-box select {
+            position: relative;
+            height: 45px;
+            width: 100%;
+            outline: none;
+            font-size: 1rem;
+            color: #707070;
+            margin-top: 2px;
+            margin-bottom: 5px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 0 15px;
+        }
+        .input-box input:focus {
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+        }
+        .form .column {
+            display: flex;
+            column-gap: 15px;
+        }
+        .address .select-box select {
+            margin-top: 1px;
+        }
+        .select-box select {
+            height: 100%;
+            width: 100%;
+            outline: none;
+            border: none;
+            color: #707070;
+            font-size: 1rem;
+        }
+        .form button {
+            height: 55px;
+            width: 100%;
+            color: #000;
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 25px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background: #FFE4A7;
+        }
+        .form button:hover {
+            background: #F1C27B;
+        }
+        .centered-image {
+            display: flex;
+            align-items: center;
+        }
+        .text-left {
+            text-align: left;
+            margin-left: 10px;
+            font-size: 0.8rem;
+        }
+        .preview {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Responsive */
+        @media screen and (max-width: 500px) {
+            .form .column {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="centered-image">
+                <img src="https://jombang.bawaslu.go.id/wp-content/uploads/2019/04/Logo-Bawaslu-2018-Icon-PNG-HD.png" width="50" alt="Logo">
+                <span class="text-left">Laporan Hasil Pengawasan<br>Panwaslu Kecamatan Cibinong</span>
+            </div>
+        </header>
+        <form class="form" onsubmit="submitForm(event)">
+            <div class="column">
+                <div class="input-box">
+                    <label for="nomorLhp">Nomor LHP</label>
+                    <input type="text" id="nomorLhp" placeholder="000/LHP/PM.01.02/Bulan/Tahun" required>
+                </div>
+                <div class="input-box">
+                    <label for="nomorSuratTugas">Nomor Surat Tugas</label>
+                    <input type="text" id="nomorSuratTugas" placeholder="000/PM.01.02/K.JB-06-07/Bulan/Tahun" required>
+                </div>
+            </div>
+            <div class="column">
+                <div class="input-box address">
+                    <label for="namaLengkap">Nama Lengkap</label>
+                    <div class="select-box">
+                        <select id="nama">
+                            <option hidden selected disabled>Pilih Nama</option>
+                            <% const sortedDataNama = dataUsers.slice().sort((a, b) => a.NAMA.localeCompare(b.NAMA));
+                               sortedDataNama.forEach((dataUser, i) => { %>
+                               <option value="<%= dataUser.NAMA %>"><%= dataUser.NAMA %></option>
+                            <% }) %>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-box address">
+                    <label for="jabatan">Jabatan</label>
+                    <div class="select-box">
+                        <select id="jabatan">
+                            <option hidden selected disabled>Pilih Jabatan</option>
+                            <% const sortedDataJabatan = dataUsers.slice().sort((a, b) => a.JABATAN.localeCompare(b.JABATAN));
+                                sortedDataJabatan.forEach((dataUser, i) => { %>
+                               <option value="<%= dataUser.JABATAN %>"><%= dataUser.JABATAN %></option>
+                            <% }) %>
+                        </select>
+                    </div>
+                </div>
+            </div>   
+            <div class="column">
+                <div class="input-box address">
+                    <label for="tahapan">Tahapan Yang Diawasi</label>
+                    <div class="select-box">
+                        <select id="tahapan">
+                            <option hidden selected disabled>Pilih Tahapan</option>
+                            <option>Pemutakhiran Data Pemilih</option>
+                            <option>Rekapitulasi DPTb & DPK</option>
+                            <option>Masa Kampanye</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-box address">
+                    <label for="bentukPengawasan">Bentuk Pengawasan</label>
+                    <div class="select-box">
+                        <select id="bentukPengawasan">
+                            <option hidden selected disabled>Pilih Bentuk Pengawasan</option>
+                            <option>Langsung</option>
+                            <option>Tidak Langsung</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label for="tujuanPengawasan">Tujuan Pengawasan</label>
+                    <input type="text" id="tujuanPengawasan" placeholder="Memastikan tahapan sesuai dengan..." required>
+                </div>
+                <div class="input-box address">
+                    <label for="sasaran">Sasaran</label>
+                    <div class="select-box">
+                        <select id="sasaran">
+                            <option hidden selected disabled>Pilih Sasaran</option>
+                            <option>Panitia Pemungutan Suara</option>
+                            <option>Peserta Pemilu</option>
+                            <option>Masyarakat</option>
+                            <option>Lainnya</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box">
+                <label for="waktuDanTempat">Waktu dan Tempat Pengawasan</label>
+                <input type="text" id="waktuDanTempat" placeholder="Hari, jam, tanggal, bulan, tahun di ...." required>
+            </div>
+            <div class="input-box laporan">
+                <label for="uraianLaporan">Uraian Hasil Pengawasan</label>
+                <textarea id="uraianLaporan" placeholder="Jelaskan..." required></textarea>
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label for="alatKerja">Alat Kerja (Gambar, PDF, Excel)</label>
+                    <input type="file" id="alatKerja" accept=".jpg, .jpeg, .png, .pdf, .xlsx, .xls" required>
+                </div>
+                <div class="input-box">
+                    <label for="dokumentasiKegiatan">Dokumentasi Kegiatan</label>
+                    <input type="file" id="dokumentasiKegiatan" accept=".jpg, .jpeg, .png" required>
+                    <img id="previewDokumentasi" class="preview" src="#" alt="Preview">
+                </div>
+            </div>
+
+            <button type="submit"><strong>Kirim Laporan</strong></button>   
+        </form>
+    </section>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script>
+        function previewFile(input, previewId) {
+            const preview = document.getElementById(previewId);
+            const file = input.files[0];
+            const reader = new FileReader();
+
+            reader.onloadend = function() {
+                preview.src = reader.result;
+            }
+
+            if (file) {
+                reader.readAsDataURL(file);
+            } else {
+                preview.src = "";
+            }
+        }
+
+        document.getElementById("dokumentasiKegiatan").addEventListener("change", function() {
+            previewFile(this, "previewDokumentasi");
+        });
+    </script>
+</body>
+</html>

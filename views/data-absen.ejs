@@ -1,0 +1,80 @@
+<%- include('layouts/header') %>
+<%- include('layouts/nav') %>
+
+<table class="table table-hover mt-3">
+    <thead>
+        <th colspan="2">
+            <div class="btn-group">
+                <button id="filterDesaBtn" class="btn dropdown-toggle btn-sm me-2" style="background-color: #FFE4A7; font-size: 1.2vmax;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-funnel"></i> <span id="selectedUser">Filter</span>
+                </button>
+                <div class="dropdown-menu" style="font-size: 1.2vmax;">
+                    <a class="dropdown-item" href="#" data-user="Semua">Semua</a>
+                    <% dataUser.forEach((dataUsers, i) => { %>
+                    <a class="dropdown-item" href="#" data-user="<%= dataUsers['NAMA'] %>"><%= dataUsers['NAMA'] %></a>
+                    <% }) %>
+                </div>
+            </div>
+        </th>
+        <th colspan="3" style="font-size: 1.2vmax;"><strong>DATA ABSEN PIKET</strong></th>
+        <tr>
+            <th class="col-md-1">Waktu</th>
+            <th class="col-md-1">Nama</th>
+            <th class="col-md-1">Jabatan</th>
+            <th class="col-md-1">Keterangan</th>
+            <th class="col-md-1">Dok.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% 
+            // Balikkan array dataUser
+            dataAbsen.reverse();
+            dataAbsen.forEach((dataku, i) => { %>
+                <tr data-user="<%= dataku['Nama'] %>">
+                    <td>
+                        <%= dataku['Waktu'] %>
+                    </td>
+                    <td>
+                        <%= dataku['Nama'] %>
+                    </td>
+                    <td>
+                        <%= dataku['Jabatan'] %>
+                    </td>
+                    <td>
+                        <%= dataku['Keterangan'] %>
+                    </td>
+                    <td>
+                        <a href="<%=  %>" class="btn btn-sm me-2"
+                            style="background-color: #FFE4A7; font-size: 1.2vmax;">
+                            <i class="bi bi-image"></i>
+                        </a>
+                    </td>
+                </tr>
+            <% }) %>
+        </tbody>        
+</table>
+
+<%- include('layouts/footer') %>
+
+<script>
+    $(document).ready(function () {
+        // Tangkap perubahan saat pengguna memilih nama dari dropdown
+        $('.dropdown-item').click(function (e) {
+            e.preventDefault();
+            var selectedUser1 = $(this).data('user');
+            console.log(selectedUser1)
+            // Setel teks pada tombol dropdown sesuai dengan nama yang dipilih
+            $('#selectedUser').text(selectedUser1 === "Semua" ? "Filter" : selectedUser1);
+            // Tampilkan baris-baris yang memiliki nama user yang sesuai dengan yang dipilih
+            $('tbody tr').each(function () {
+                var selectedJabatan = selectedUser1
+                var userku1 = $(this).data('user');
+                if (userku1 === selectedJabatan || selectedUser1 === "Semua") {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        });
+    });
+</script>

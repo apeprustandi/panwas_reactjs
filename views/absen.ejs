@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/css/stylesAbsen.css">
+  <link rel="icon" type="image/svg+xml" href="https://jombang.bawaslu.go.id/wp-content/uploads/2019/04/Logo-Bawaslu-2018-Icon-PNG-HD.png">
+  <title>Panwaslu Kecamatan Cibinong</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+  <section class="container">
+    <div class="input-box-camera" style="margin-top: 20px; width: 150px; height: 150px; border-radius: 80px; overflow: hidden; margin-left: auto; margin-right: auto;">
+      <video id="camera" width="150" autoplay></video>
+    </div>     
+    <div class="column" style="margin-top: 5%">
+      <div class="input-box">
+        <h8 class="font-gagal" id="ip-message"> </h8>
+        <h7 class="font-lain" id="output"></h7>
+      </div>
+    </div>
+
+    <form action="#" class="form" onsubmit="submitForm(event)">
+      <div class="column">
+        <div class="input-box address">
+          <label for="nama">Nama</label>
+          <div class="select-box">
+            <select id="nama" required>
+              <option hidden>Pilih Nama</option>
+              <% dataUser.forEach((dataUsers, i)=> { %>
+                <option>
+                  <%= dataUsers['NAMA'] %>
+                </option>
+                <% }) %>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="input-box address">
+          <label for="jabatan">Jabatan</label>
+          <div class="select-box">
+            <select id="jabatan" required>
+              <option hidden>Pilih Jabatan</option>
+              <option>Anggota Panwascam</option>
+              <option>Sekretariat Panwascam</option>
+              <option>Panwaslu Desa</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button type="submit" id="submit-btn" disabled>Absen Sekarang</button>
+      <!-- <button type="button" onclick="resetLocalStorage()">Reset Data Absen</button> -->
+    </form>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(function (stream) {
+        var video = document.getElementById('camera');
+        video.srcObject = stream;
+        video.play();
+      })
+
+    function checkIPAndDisableSubmit() {
+      const allowedIP = 'PT Telekomunikasi Indonesia';
+      const ipMessage = document.getElementById('ip-message');
+      const submitBtn = document.getElementById('submit-btn');
+
+      const handleResponse = (ip) => {
+        if (ip.org === allowedIP) {
+          submitBtn.disabled = false;
+        } else {
+          ipMessage.innerText = 'Anda sedang tidak dikantor !!!\n';
+          submitBtn.disabled = true;
+          submitBtn.style.background = 'red';
+          submitBtn.style.color = 'white';
+        }
+        userIP = ip.network;
+        userAgent = navigator.userAgent;
+      };
+
+      const url = 'https://ipapi.co/json';
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          const ip = data;
+          handleResponse(ip);
+        });
+    }
+    window.onload = checkIPAndDisableSubmit;
+
+    var hasilabsen = JSON.parse(localStorage.getItem('hasilabsen')) || [];
+
+    function saveDataToLocalStorage() {
+      localStorage.setItem('hasilabsen', JSON.stringify(hasilabsen));
+    }
+
+    function resetLocalStorage() {
+      localStorage.removeItem('hasilabsen');
+      hasilabsen = [];
+    }
+
+    function displayHasilAbsen() {
+      var outputElement = document.getElementById('output');
+      var hasilAbsenText = '';
+      hasilabsen.forEach(function (data) {
+        hasilAbsenText += `${data.nama} : ${data.jabatan}<br>`;
+      });
+      outputElement.innerHTML = hasilAbsenText;
+    }
+
+    function popupku(logo, status, kata) {
+      Swal.fire({
+        icon: logo,
+        title: status,
+        text: kata,
+        confirmButtonColor: '#F1C27B',
+        confirmButtonText: 'OK',
+      });
+    }
+
+    function cekWaktu() {
+      var currentDate = new Date();
+      var jam = currentDate.getHours();
+      var menit = currentDate.getMinutes();
+      var waktuFormatted = (jam < 10 ? "0" + jam : jam) + ":" + (menit < 10 ? "0" + menit : menit);
+      return waktuFormatted;
+    }
+
+
+    function isAlreadyAbsenToday() {
+      var formattedDate = new Date().toISOString().split("T")[0];
+      return hasilabsen.some(function (data) {
+        return data.waktuAbsen.includes(formattedDate);
+      });
+    }
+
+    function sendData(data) {
+      filterWaktu = data.waktuKU.replace(/ /g, "+");
+      filterNama = data.nama.replace(/ /g, "+");
+      filterJabatan = data.jabatan.replace(/ /g, "+");
+      const url = `https://docs.google.com/forms/d/e/1FAIpQLSc2Ditb1Nk2IQ4IyichLHk7bCemSMOCmYzXO_ipSSSCfurG3A/formResponse?usp=pp_url&entry.1612017675=${filterWaktu}&entry.1936318727=${filterNama}&entry.618290187=${filterJabatan}&entry.639629710=Hadir&entry.216435049=${data.userIP}&entry.1721258555=${data.userAgent}`;
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          const ip = data;
+        });
+    }
+    
+    // Function to get the day name
+    function getDayName(date) {
+      const daysOfWeek = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+      return daysOfWeek[date.getDay()];
+    }
+
+    function submitForm(event) {
+      event.preventDefault();
+      var nama = document.getElementById('nama').value;
+      var jabatan = document.getElementById('jabatan').value;
+
+      if (nama === '' || jabatan === 'Pilih Jabatan') {
+        alert('Mohon lengkapi sebelum mengirim.');
+      } else {
+        if (isAlreadyAbsenToday()) {
+          displayHasilAbsen();
+          popupku('warning', 'Gagal', 'Anda sudah absen hari ini.');
+        } else {
+          resetLocalStorage();
+          var formattedDate = new Date().toISOString().split("T")[0];
+          var waktuFormatted = cekWaktu();
+
+          var currentDate = new Date();
+          var monthNames = [
+            "Januari", "Februari", "Maret", "April", "Mei", "Juni",
+            "Juli", "Agustus", "September", "Oktober", "November", "Desember"
+          ];
+
+          var day = currentDate.getDate();
+          var monthIndex = currentDate.getMonth();
+          var year = currentDate.getFullYear();
+          var hours = currentDate.getHours();
+          var minutes = currentDate.getMinutes();
+
+          var waktuKU = `${getDayName(currentDate)}, ${day} ${monthNames[monthIndex]} ${year} ${hours}:${minutes}`;
+
+          var data = {
+            waktuKU: waktuKU, // Add the waktuKU property to the data object
+            nama: nama,
+            jabatan: jabatan,
+            userIP:userIP,
+            userAgent:userAgent,
+            waktuAbsen: `${formattedDate} | ${waktuFormatted}`,
+          };
+          hasilabsen.push(data);
+          var outputElement = document.getElementById('output');
+          outputElement.innerHTML = `Absen Sukses!!<br>${data.nama} | ${formattedDate}`
+          saveDataToLocalStorage();
+          displayHasilAbsen();
+          console.log("Alamat IP pengguna: " + userIP);
+          console.log("User-Agent pengguna: " + userAgent);
+          popupku('success', 'Success', 'Absen berhasil');
+          sendData(data)
+        }
+      }
+    }
+  </script>
+</body>
+</html>
